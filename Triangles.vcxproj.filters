@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\geometry">
+      <UniqueIdentifier>{f5cff490-3464-4162-8977-cf5ce025a425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\file">
+      <UniqueIdentifier>{5c7f4568-48af-4f45-a05f-4b694f1cfe97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\search">
+      <UniqueIdentifier>{874d4894-c46c-491c-b24a-c28aef80cee1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="file\file.cpp">
+      <Filter>Исходные файлы\file</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry\geometry.cpp">
+      <Filter>Исходные файлы\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="search\search.cpp">
+      <Filter>Исходные файлы\search</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="file\file.h">
+      <Filter>Исходные файлы\file</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry\geometry.h">
+      <Filter>Исходные файлы\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="search\search.h">
+      <Filter>Исходные файлы\search</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt" />
+  </ItemGroup>
+</Project>
